@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    width:100%;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+}
+
+.navbar{
+    display:flex;
+    gap: 3rem;
+    background: rgb(173, 214, 241);
+    Height:15vh;
+    width:100%;
+    position: fixed;
+}
+.icon{
+width:160x;
+float:left;
+height:70px;
+}
+.logo{
+    color:rgb(54, 6, 100);
+    font-size: 60px;
+    font-family: Arial;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+}
+.menu{
+    width:300px;
+    float:left;
+    height:70px;
+    text-align: center;
+}
+
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 25px;
+}
+ul li a{
+text-align: none;
+color:rgb(56,4,100);
+font-family: Arial;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:blueviolet;
+}
+
+.icons .fa-brands:hover{
+    color:rgb(52, 4, 164);
+    font-size: 3rem;
+    cursor: pointer;
+    background: linear-gradient(#a6edd7, #2c0fd0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.left-container, .right-container{
+    height:100vh;
+    display:flex;
+    align-items: center;
+}
+.left-container{
+    background: #d8a5b9;
+    width:70%;
+    padding-left: 3rem;
+    align-items:center;
+}
+.right-container{
+background: #8580e67e;
+width:30%;
+}
+.icons{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:2rem;
+}
+.content{
+    margin-left:4rem;
+}
+.content .intro{
+    font-size: 2rem;
+    color:rgb(46, 69, 4);
+}
+.content .intro span{
+    color:rgb(11, 86, 86);
+    font-size:3rem;
+}
+.content h2{
+    font-size: 3.5rem;
+    color:rgb(24, 7, 71);
+    font-style: inherit;
+}
+.content .wish span{
+    color: rgb(69, 11, 124);
+    font-style:oblique;
+    font-size:2rem ;
+}
+.content .wish{
+    color:rgb(4, 83, 31);
+    font-size:2rem;
+}
+.btn-container button:hover{
+    border: 1rem soli #08476b;
+    font-size: 1.2rem;
+    padding: .8rem; 
+    border-radius: .5rem;
+    background:transparent;
+    color:rgb(143, 202, 215);
+    transition: .2s ease;
+    cursor: pointer;
+   
+}
+button:nth-child(1):hover{
+    background: #a6edd7;
+    color: #08476b;
+}
+.design .circle{
+aspect-ratio: 1;
+position:absolute;
+border-radius:50%;
+top:60%;
+left:70%;
+transform: translate(-50%,-50%);
+}
+.circle:nth-child(1){
+  background:linear-gradient(#d8a5b9, rgb(173, 214, 241) );
+  width:30rem;
+}
+.circle:nth-child(2){
+    background-image:url("img/back.jpg");
+    background-size: 100%;
+
+    width:25rem;
+}
+
